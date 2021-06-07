@@ -1,0 +1,188 @@
+.login {
+    margin: 0 auto;
+    width: 310px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 30px 70px 143px 70px;
+    margin-bottom: 100px;
+}
+
+.login h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.login-div {
+    margin: 0 auto 0px;
+    min-height: 100vh;
+}
+
+.input-text {
+    margin-bottom: 20px;
+}
+
+.input-text input {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-indent: 18px;
+    border-bottom: 2px solid #e87c03;
+}
+
+.input-text input::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #999;
+}
+
+.input-text input::-moz-placeholder {
+    font-size: 1rem;
+    color: #999;
+    text-indent: 40px;
+}
+
+.signin-button {
+    margin: 24px 0 12px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.signin-button:hover {
+    background-color: rgb(134, 3, 3);
+}
+
+.remember-me {
+    position: absolute;
+    color: #999;
+}
+
+.warning-input {
+    color: #e87c03;
+    margin-top: 4px;
+    font-size: small;
+}
+
+.help-me {
+    float: right;
+    color: #999;
+    text-decoration: none;
+}
+
+.help-me:hover {
+    text-decoration: underline; 
+}
+
+.margin-element {
+    margin-bottom: 7%;
+}
+
+.link-facebook {
+    color: #999;
+    text-decoration: none;
+}
+
+.link-facebook img {
+    height: 20px;
+    margin-right: 3px;
+}
+
+.link-facebook span {
+    padding-bottom: 2%;
+}
+
+.new {
+    color: #999;
+    margin-top: 7%;
+}
+.new a {
+    text-decoration: none;
+    color: white;
+}
+
+.new:hover a {
+    text-decoration: underline;
+}
+
+.captcha {
+    color: #999;
+    margin-top: 7%
+}
+
+.captcha a {
+    text-decoration: none;
+    color: white;
+}
+
+.captcha:hover a {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.86);
+    width: 100%;
+}
+
+.footer-top {
+    color: #999;
+    margin: 0px 0px 30px 0px;
+}
+ 
+.footer-top a {
+    color: #999;
+    text-decoration: none;
+
+}
+
+.footer-top:hover a {
+    text-decoration: underline;
+}
+
+.footer-links-structural {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-item {
+    display: inline-block;
+    width: 22%;
+    padding-right: 12px;
+    padding: 0 12 0 0;
+    margin-bottom: 16px;
+    vertical-align: top;
+}
+
+.footer-link {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-div {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0px;
+}
+
+.lang {
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #999;
+    border-radius: 2px;
+    color: #999;
+    padding: 10px;
+    margin-top: 20px;
+}
+

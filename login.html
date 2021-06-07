@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="logo">
+           <a href="#"><img src="img/Netflix-Logo.png" alt="Netflix-logo" class="img-logo"></a>
+        </div>
+        <div class="login-div">
+            <form action="perfil.html" class="login" method="GET">
+                <h1>Entrar</h1>
+                <div class="input-text">
+                    <input type="text" id="inputEmail" name="Email" placeholder="Email ou número de telefone" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+                    <div class="warning-input" id="warningEmail">
+                        Informe um email ou número de telefone válido.  
+                    </div>
+                </div>
+                
+                <div class="input-text">
+                    <input type="password" id="inputPassword" name="password" placeholder="Senha" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+                    <div class="warning-input" id="warningPassword">
+                        A senha deve ter entre 4 e 60 caracteres.  
+                    </div>
+                </div>
+                
+                <button class="signin-button" type="submit">Entrar</button>
+                <div class="margin-element">
+                    <div class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Lembre-se de mim</label>
+                    </div>
+                    
+                    <a href="#" class="help-me">Precisa de ajuda?</a>
+                    <br> 
+                </div>
+                
+                <a href="#" class="link-facebook">
+                    <img src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" alt="Facebook">
+                    <span>Conectar com o Facebook</span> 
+                </a>
+                
+                <div class="new">
+                    Novo por aqui?
+                    <a href="#">Assine agora</a>
+                </div>
+                
+                <div class="captcha">
+                    Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
+                    <a href="#">Saiba mais.</a>
+                </div>
+            </form> 
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-div">
+            <p class="footer-top">Dúvidas? Ligue <a href="#">0800-761-4631</a></p>
+            
+            <ul class="footer-links-structural">
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Perguntas frequentes</span></a></li>
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Centro de ajuda</span></a></li>
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Termos de uso</span></a></li>
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Privacidade</span></a></li>
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Preferências de cookies</span></a></li>
+                <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Informações corporativas</span></a></li>
+            </ul>
+
+            <select class="lang">
+                <option value="">Português</option>
+                <option value="">English</option>
+            </select>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
