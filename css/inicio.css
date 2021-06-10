@@ -1,0 +1,11 @@
+body {
+    background: black;
+}
+
+.navbar {
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
