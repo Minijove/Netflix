@@ -17,3 +17,11 @@ body {
 .img-logo {
     height: 60px;
 }
+
+.navbar {
+    position: relative;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
