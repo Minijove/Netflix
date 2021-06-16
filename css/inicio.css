@@ -2,11 +2,7 @@ body {
     background: black;
     color: white;
 }
-/*
-.grid-header {
-    grid-area: header;
-}
-*/
+
 .grid-container {
     display: grid;
     grid-template-columns: 150px 460px auto ;
