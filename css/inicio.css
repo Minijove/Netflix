@@ -9,7 +9,7 @@ body {
 */
 .grid-container {
     display: grid;
-    grid-template-columns: 150px 350px auto ;
+    grid-template-columns: 150px 460px auto ;
     align-items: center;
     padding: 0 4%;
 }
@@ -20,7 +20,17 @@ body {
 
 .navigation-tab {
     display: inline-block;
-    padding: 8px;
+    padding: 2px;
+    margin-left: 10px;
     font-size: 14px;
+    color: #e5e5e5;
+    
+}
+
+.navigation-tab:hover {
+    color: #b3b3b3;
+}
+
+.navigation-tab:active {
     color: white;
 }
