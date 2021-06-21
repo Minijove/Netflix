@@ -5,7 +5,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 150px 460px auto 260px ;
+    grid-template-columns: 150px 460px 320px 100px auto ;
     align-items: center;
     padding: 0 4%;
 }
@@ -28,4 +28,19 @@ body {
 
 .navigation-tab:active {
     color: white;
+}
+
+.grid-exit {
+    background: #e50914;
+    padding-left: 20px;
+    padding-right: 14px;
+    height: 32px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.letter-exit {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
 }
