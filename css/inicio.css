@@ -1,3 +1,7 @@
+html,body {
+    height: 100%;
+}
+
 body {
     background: black;
     color: white;
@@ -5,10 +9,17 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 150px 460px 320px 100px auto;
+    grid-template-columns: 150px 460px 320px 108px 140px;
     align-items: center;
     padding: 0 4%;
-    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+
+.naruto-logo {}
+
+.grid-img {
+    padding: 5px;
 }
 
 .navigation {
@@ -49,5 +60,8 @@ body {
 .img-wrapper {
     position: absolute;
     width: 100%;
-    z-index: 0;
+    height: 75%;
+    background: url(../img/naruto-uzumaki-4k-papel-de-parede-1024x768_18.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1;
 }
