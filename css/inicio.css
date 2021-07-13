@@ -140,3 +140,9 @@ section.spotlight {
     height: 25%;
     box-sizing: border-box;
 }
+
+.free {
+    position: relative;
+    right: 77px;
+    bottom: 4px;
+}
