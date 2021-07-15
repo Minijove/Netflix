@@ -172,4 +172,5 @@ section.spotlight {
     position: relative;
     display: grid;
     height: 100px;
+    padding: 0 4%;
 }
