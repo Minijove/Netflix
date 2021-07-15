@@ -152,7 +152,7 @@ section.spotlight {
     position: absolute;
     z-index: 3;
     width: -webkit-fill-available;
-    top: 550px;
+    top: 555px;
 }
 
 .character-head {
@@ -171,6 +171,49 @@ section.spotlight {
 .slider {
     position: relative;
     display: grid;
-    height: 100px;
+    grid-template-columns: auto auto auto auto auto auto;
+    height: 197px;
     padding: 0 4%;
+}
+
+.character-item {
+    padding: 0 2px;
+}
+
+.character-wrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 250px;
+    overflow: hidden;
+    min-width: 100%;
+}
+
+
+.character-1 {
+    background: linear-gradient(to top,#ffb400,#ffe25b);
+}
+
+
+.character-2 {
+    background: linear-gradient(to top,#ff6000,#ffae7d);
+}
+
+
+.character-3 {
+    background: linear-gradient(to top,#9fcd00,#cfed66);
+}
+
+
+.character-4 {
+    background: linear-gradient(to top,#00c6d8,#86f5ff);
+}
+
+
+.character-5 {
+    background: linear-gradient(to top,#d926ff,#eea1ff);
+}
+
+
+.character-6 {
+   background: linear-gradient(to top,#bb1919,#ff2600);
 }
