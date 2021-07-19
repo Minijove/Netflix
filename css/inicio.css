@@ -36,6 +36,25 @@ body {
     color: white;
 }
 
+.grid-item-3 {
+    width: 100px;
+    height: 35px;
+}
+
+.fa-search {
+    position: relative;
+    padding-left: 17px;
+    padding-right: 21px;
+    padding-top: 7px;
+    font-size: 22px;
+}
+
+.fa-child {
+    position: relative;
+    padding-top: 7px;
+    font-size: 22px;
+}
+
 .grid-exit {
     background: #e50914;
     padding-left: 20px;
