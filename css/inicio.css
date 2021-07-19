@@ -174,6 +174,7 @@ section.spotlight {
     grid-template-columns: auto auto auto auto auto auto;
     height: 197px;
     padding: 0 4%;
+    background-color: white;
 }
 
 .character-item {
@@ -216,4 +217,41 @@ section.spotlight {
 
 .character-6 {
    background: linear-gradient(to top,#bb1919,#ff2600);
+}
+
+.left-arrow {
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    background: rgba(20,20,20,.5);
+    position: absolute;
+    z-index: 4;
+    top: 42px;
+    bottom: 0;
+    width: 4%;
+    height: 200px;
+    text-align: center;
+    display: grid; 
+}
+
+.arrow-button-1 {
+    width: 50px;
+    padding: 30px 0;
+}
+
+.right-arrow {
+    background: rgba(20,20,20,.5);
+    position: absolute;
+    z-index: 4;
+    top: 42px;
+    bottom: 0;
+    left: 1230px;
+    width: 4%;
+    height: 200px;
+    text-align: center;
+    display: grid; 
+}
+
+.arrow-button-2 {
+    width: 50px;
+    padding: 30px 0;
 }
