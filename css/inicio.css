@@ -213,34 +213,52 @@ section.spotlight {
     background: linear-gradient(to top,#ffb400,#ffe25b);
 }
 
+.character-1:hover {
+    transform: scale(1.2);
+}
+
 
 .character-2 {
     background: linear-gradient(to top,#ff6000,#ffae7d);
 }
 
+.character-2:hover {
+    transform: scale(1.2);
+}
 
 .character-3 {
     background: linear-gradient(to top,#9fcd00,#cfed66);
 }
 
+.character-3:hover {
+    transform: scale(1.2);
+}
 
 .character-4 {
     background: linear-gradient(to top,#00c6d8,#86f5ff);
 }
 
+.character-4:hover {
+    transform: scale(1.2);
+}
 
 .character-5 {
     background: linear-gradient(to top,#d926ff,#eea1ff);
 }
 
+.character-5:hover {
+    transform: scale(1.2);
+}
 
 .character-6 {
    background: linear-gradient(to top,#bb1919,#ff2600);
+
+}
+.character-6:hover {
+    transform: scale(1.2);
 }
 
 .left-arrow {
-    justify-content: flex-start;
-    -webkit-box-pack: start;
     background: rgba(20,20,20,.5);
     position: absolute;
     z-index: 4;
@@ -254,7 +272,9 @@ section.spotlight {
 
 .arrow-button-1 {
     width: 50px;
-    padding: 30px 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-self: center;
 }
 
 .right-arrow {
@@ -272,5 +292,15 @@ section.spotlight {
 
 .arrow-button-2 {
     width: 50px;
-    padding: 30px 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-self: center;
+}
+
+.fa-chevron-left {
+    font-size: 25px;
+}
+
+.fa-chevron-right {
+    font-size: 25px;
 }
