@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-.grid-container {
+.home-navbar {
     display: grid;
     grid-template-columns: 150px 460px 320px 108px 140px;
     align-items: center;
