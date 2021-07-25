@@ -24,14 +24,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .profile-label {

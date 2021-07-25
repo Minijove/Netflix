@@ -21,7 +21,6 @@ body {
 .navbar {
     position: relative;
     height: 68px;
-    display: flex;
-    align-items: center;
+    display: grid;
     padding: 0 4%;
 }

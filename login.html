@@ -9,32 +9,33 @@
     <title>Netflix</title>
 </head>
 <body>
+    <!--upper-->
     <div class="upper">
+        
         <div class="navbar">
-           <a href="#"><img src="img/Netflix-Logo.png" alt="Netflix-logo" class="img-logo"></a>
+            <a href=""><img src="img/Netflix-Logo.png" alt="Netflix-logo" class="img-logo"></a>
         </div>
-        <div class="login-div">
+        
+        <div class="login-container">
+            
             <form action="perfil.html" class="login" method="GET">
                 <h1>Entrar</h1>
+                
                 <div class="input-text">
-                    <input type="text" id="inputEmail" name="Email" placeholder="Email ou número de telefone" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
-                    <div class="warning-input" id="warningEmail">
-                        Informe um email ou número de telefone válido.  
-                    </div>
+                    <input type="text" id="inputEmail" name="Email" placeholder="Email ou número de telefone">
                 </div>
                 
                 <div class="input-text">
-                    <input type="password" id="inputPassword" name="password" placeholder="Senha" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
-                    <div class="warning-input" id="warningPassword">
-                        A senha deve ter entre 4 e 60 caracteres.  
-                    </div>
-                </div>
+                    <input type="password" id="inputPassword" name="password" placeholder="Senha">
+                </div>  
                 
                 <button class="signin-button" type="submit">Entrar</button>
+                
                 <div class="margin-element">
+                    
                     <div class="remember-me">
                         <input type="checkbox" id="rememberMe">
-                        <label for="rememberMe">Lembre-se de mm</label>
+                        <label for="rememberMe">Lembre-se de mim</label>
                     </div>
                     
                     <a href="#" class="help-me">Precisa de ajuda?</a>
@@ -55,11 +56,17 @@
                     Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
                     <a href="#">Saiba mais.</a>
                 </div>
+                
             </form> 
+            
         </div>
+
     </div>
+    <!--/upper-->
+
+    <!--footer-->
     <footer class="footer">
-        <div class="footer-div">
+        <div class="footer-container">
             <p class="footer-top">Dúvidas? Ligue <a href="#">0800-761-4631</a></p>
             
             <ul class="footer-links-structural">
@@ -70,13 +77,15 @@
                 <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Preferências de cookies</span></a></li>
                 <li class="footer-link-item"><a class="footer-link" href="#"><span id="">Informações corporativas</span></a></li>
             </ul>
-
+            
             <select class="lang">
                 <option value="">Português</option>
                 <option value="">English</option>
             </select>
         </div>
     </footer>
+    <!--/footer-->
+
     <script src="js/script.js"></script>
 </body>
 </html>
