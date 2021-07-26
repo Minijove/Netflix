@@ -9,10 +9,6 @@ body {
     height: 100%;
 }
 
-.upper {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 999px;
-}
 
 .img-logo {
     height: 60px;
@@ -28,4 +24,16 @@ body {
 
 .navbar a {
     width: 110px;
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0.8) 100%);
+    height: 999px;
 }

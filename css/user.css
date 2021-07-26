@@ -1,0 +1,44 @@
+body {
+    color: white;
+}
+
+.main {
+    height: 785px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.main h1 {
+    font-size: 64px;
+    max-width: 510px;
+    position: relative;
+}
+
+.main span {
+    font-size: 26px;
+}
+
+.main p {
+    font-size: 19px;
+}
+
+.form-email {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-email input {
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.main-child{
+    z-index: 3;
+    display: grid;
+    justify-items: center;
+}
