@@ -332,3 +332,7 @@ section.spotlight {
 .see-wrap:hover {
     transform: scale(1.2);
 }
+
+.see-arrow {
+    height: 160px;
+}
